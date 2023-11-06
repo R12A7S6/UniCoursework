@@ -1,4 +1,5 @@
 Total Claimed 120
+
 Clarity: 80
 - Hierarchy nice renaming and ordering, you had some things left with their default names cube, spot light, area light etc.
 - Random cube which doesnt do anything
