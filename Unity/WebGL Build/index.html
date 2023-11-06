@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | COMP111/Assignment 1</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Test.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">COMP111/Assignment 1</div>
+        <div>Brief:</div>
+        <div>You start inside a tunnel-like structure.</div>
+        <div>On one end of is a Red button. Click on it and the childlock on the left of you will unlock itself.</div>
+        <div>While unlocked, walk yourself into the wall behind the childlock and the scene will open up.</div>
+        <div>After that, feel free to look around yourself.</div>
+        <div></div>
+        <div>Controls:</div>
+        <div>Move with WASD. Interact with mouseclick.</div>
+      </div>
+    </div>
+  </body>
+</html>
